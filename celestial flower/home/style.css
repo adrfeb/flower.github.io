@@ -1,0 +1,84 @@
+.red-rose-in-line-art-removebg-icon {
+    position: absolute;
+    top: 181px;
+    left: 0;
+    width: 360px;
+    height: 417px;
+    object-fit: cover;
+  }
+  .android-large-1-child {
+    position: absolute;
+    top: 572px;
+    left: 65px;
+    border-radius: 40px;
+    background-color: #fff;
+    width: 230px;
+    height: 52px;
+  }
+  .celestial-flower {
+    position: absolute;
+    top: 67px;
+    left: 74px;
+    letter-spacing: 0.1em;
+    font-family: var(--font-luxurious-roman);
+    text-align: left;
+  }
+  .ini-adalah-hadiah {
+    margin: 0;
+  }
+  .ini-adalah-hadiah-container {
+    position: absolute;
+    top: 106px;
+    left: 30px;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+    color: #000;
+    display: inline-block;
+    width: 299px;
+    opacity: 0;
+    animation: fadeIn 5s forwards;
+  }
+  .ini-adalah-hadiah::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 1em;
+    vertical-align: bottom;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  .flower-celestial-project {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    font-size: 5px;
+    letter-spacing: 0.1em;
+    color: #7a7474;
+  }
+  .tombol-1-icon {
+    position: absolute;
+    top: 588px;
+    left: 173px;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+  }
+  .android-large-1 {
+    position: relative;
+    width: 100%;
+    height: 640px;
+    overflow: hidden;
+    background-image: url(latar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: center;
+    font-size: 24px;
+    color: #881a1a;
+    font-family: var(--font-lexend);
+  }
+  
